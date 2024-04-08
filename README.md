@@ -44,3 +44,9 @@ Note: By default start runs node server.js in case not explicitly defined.
 ``` export NODE_OPTIONS="--max-old-space-size=8192" ```
 #### See the current value of max-old-space-size (in MB)
 ``` node -e 'console.log(v8.getHeapStatistics().heap_size_limit/(1024*1024))' ```
+
+
+#### Browserslist: caniuse-lite is outdated
+
+```  npx update-browserslist-db@latest ```
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
