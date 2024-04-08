@@ -24,10 +24,10 @@ If you don thave nvm use the following --> https://heynode.com/tutorial/install-
 #### Start in Background
 ``` nohup npm start >> app.log 2>&1 & ```
 
-#### Troubleshooting - install / Build / Start Process
+#### Troubleshooting - Install / Build / Start Process
 ``` FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory ```
 
-#### Set value of max-space-size (in MB)
+#### Set value of max-space-size (in MB and only if your server sucks ass an doesnt have enough mem)
 ``` export NODE_OPTIONS="--max-old-space-size=8192" ```
 
 #### See the current value of max-old-space-size (in MB)
