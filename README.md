@@ -21,6 +21,9 @@ If you don thave nvm use the following --> https://heynode.com/tutorial/install-
 #### NPM Clear Cache (optional if needed for dev env)
 ``` npm cache clean --force ```
 
+#### Start in Background
+``` nohup npm start >> app.log 2>&1 & ```
+
 #### Troubleshooting - install / Build / Start Process
 ``` FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory ```
 
