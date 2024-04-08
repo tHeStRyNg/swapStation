@@ -8,45 +8,22 @@
 ``` nvm use 16 ``` # nvm install 16 and then nvm use 16
 
 #### Yarn Install
-``` yarn install ```
+``` yarn install ``` or ``` npm install ```
 
 #### NPM Build
-``` npm run build ```
+``` yarn build ``` or ``` npm run build ```
 
 #### NPM Start
-``` npm run start ```
+``` yarn start ``` or ``` npm run start ```
 
-Few things to understand:
-
-npm: run command is mandatory to execute user defined scripts.
-yarn: run command is not mandatory to execute user defined scripts.
-
-start command is not a user defined script name, so you may not need to specify run command to execute it.
-
-So, all the below commands work similar!
-```
-npm start
-npm run start
-yarn start
-yarn run start
-If you have a user defined script named 'app':
-
-npm app (Does not work!) XX
-npm run app (Works!)
-yarn app (Works!)
-yarn run app (Works!)
-Note: By default start runs node server.js in case not explicitly defined.
-```
 #### Troubleshooting Build Process
 ``` FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory ```
 
 #### Set value of max-space-size (in MB)
 ``` export NODE_OPTIONS="--max-old-space-size=8192" ```
+
 #### See the current value of max-old-space-size (in MB)
 ``` node -e 'console.log(v8.getHeapStatistics().heap_size_limit/(1024*1024))' ```
 
-
 #### Browserslist: caniuse-lite is outdated
-
 ```  npx update-browserslist-db@latest ```
-  Why you should do it regularly: https://github.com/browserslist/update-db#readme
