@@ -26,7 +26,7 @@ const Footer = () => {
                 <Image src="https://app.swapstation.com/images/logo.svg" alt="SwapStation logo" width="28px" height="28px" />
               </div>
               <Typography variant="h2" weight={700} className="tracking-[0.02em] scale-y-90 hover:text-high-emphesis">
-              SwapStation
+            SwapStation
               </Typography>
             </div>
             <Typography variant="xs" className="text-low-emphesis">
@@ -147,7 +147,7 @@ const Footer = () => {
             <Typography variant="xs" weight={700} className="mt-2.5 hover:text-high-emphesis">
               {i18n._(t`Protocol`)}
             </Typography>
-            <a href="https://rbieu62gj0f.typeform.com/to/KkrPkOFe" target="_blank" rel="noreferrer">
+            <a href="https://s29mcnuxfsp.typeform.com/to/NR185U4H" target="_blank" rel="noreferrer">
               <Typography variant="xs" className="text-low-emphesis hover:text-high-emphesis">
                 {i18n._(t`Apply for Onsen`)}
               </Typography>

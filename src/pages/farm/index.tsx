@@ -71,7 +71,7 @@ export default function Farm(): JSX.Element {
 
   return (
     <>
-      <NextSeo title="Farm" description="Farm SUSHI" />
+      <NextSeo title="Farm" description="Farm SwapStation" />
       <TridentHeader className="sm:!flex-row justify-between items-center" pattern="bg-bubble">
         <div>
           <Typography variant="h2" className="text-high-emphesis" weight={700}>
@@ -83,7 +83,7 @@ export default function Farm(): JSX.Element {
         </div>
         <div className="flex gap-3">
           <Button id="btn-create-new-pool" size="sm">
-            <a href="https://rbieu62gj0f.typeform.com/to/KkrPkOFe" target="_blank" rel="noreferrer">
+            <a href="https://s29mcnuxfsp.typeform.com/to/NR185U4H" target="_blank" rel="noreferrer">
               {i18n._(t`Apply for Onsen`)}
             </a>
           </Button>
