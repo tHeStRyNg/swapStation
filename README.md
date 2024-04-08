@@ -32,4 +32,3 @@ If you don thave nvm use the following --> https://heynode.com/tutorial/install-
 
 #### Browserslist: caniuse-lite is outdated
 ```  npx update-browserslist-db@latest ```
-
