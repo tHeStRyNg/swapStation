@@ -3,6 +3,11 @@ DeFi - SushiSwap/UniSwap Similar Crypto Decentralized Exchange Cross 18 Diff Net
 
 devUrl- https://swapstation.algorithmic.one/
 
+Fees Structure
+- 0.3% is taken on every swap made
+- 0.25% of this fee is immediately redistributed to users in the form of LP rewards 
+- 0.05% of this fee is sent to the SwapStation treasury
+
 ### Install Procedure
 #### Use Node 16 as required
 ``` error detective-postcss@5.1.1: The engine "node" is incompatible with this module. Expected version "12.x || 14.x || 16.x". Got "20.12.0" ```
