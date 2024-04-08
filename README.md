@@ -7,6 +7,8 @@
 #### Install Node 16
 ``` nvm use 16 ``` # nvm install 16 and then nvm use 16
 
+If you don thave nvm use the following --> https://heynode.com/tutorial/install-nodejs-locally-nvm
+
 #### Yarn Install
 ``` yarn install ``` or ``` npm install ```
 
