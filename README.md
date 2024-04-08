@@ -9,13 +9,13 @@
 
 If you don thave nvm use the following --> https://heynode.com/tutorial/install-nodejs-locally-nvm
 
-#### Yarn Install
+#### Yarn/NPM Install
 ``` yarn install ``` or ``` npm install ```
 
-#### NPM Build
+#### Yarn/NPM Build
 ``` yarn build ``` or ``` npm run build ```
 
-#### NPM Start
+#### Yarn/NPM Start
 ``` yarn start ``` or ``` npm run start ```
 
 #### Troubleshooting Build Process
