@@ -1,15 +1,15 @@
 const SEO = {
-  defaultTitle: 'Sushi',
-  titleTemplate: '%s | Sushi',
-  description: 'Swap, yield, lend, borrow, leverage, limit, launch all on one community driven ecosystem',
+  defaultTitle: 'SwapStation',
+  titleTemplate: '%s | Station',
+  description: 'DeFi Swap, yield, lend, borrow, leverage, limit, launch all on one community driven ecosystem',
   openGraph: {
     type: 'website',
-    url: 'https://app.sushi.com/',
-    site_name: 'Sushi',
+    url: 'https://swapstation.algorithmic.one/',
+    site_name: 'SwapStation',
   },
   twitter: {
-    handle: '@SushiSwap',
-    site: '@SushiSwap',
+    handle: '@SwapStation',
+    site: '@SwapStation',
     cardType: 'summary_large_image',
   },
 }

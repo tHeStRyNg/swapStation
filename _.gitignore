@@ -1,3 +1,5 @@
+### Delete this line and create a file in the dir root called .gitignore with the following below:
+ 
 **cache/
 **artifacts/
 **node_modules/
