@@ -26,7 +26,7 @@ const Footer = () => {
                 <Image src="https://app.swapstation.com/images/logo.svg" alt="SwapStation logo" width="28px" height="28px" />
               </div>
               <Typography variant="h2" weight={700} className="tracking-[0.02em] scale-y-90 hover:text-high-emphesis">
-              SwapStation
+              DeFi - SwapStation
               </Typography>
             </div>
             <Typography variant="xs" className="text-low-emphesis">
